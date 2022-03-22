@@ -51,6 +51,7 @@ SELECT neutered, MIN(weight_kg), MAX(weight_kg) FROM animals GROUP BY neutered;
 SELECT neutered, AVG(escape_attempts) FROM animals WHERE date_of_birth 
 BETWEEN 'Jan 1, 1990' AND 'Dec 31, 2000' GROUP BY neutered;
 
+
 -- Write queries (using JOIN) :
 -- What animals belong to Melody Pond?
 SELECT *
