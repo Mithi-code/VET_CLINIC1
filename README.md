@@ -1,6 +1,5 @@
-# curriculum-databases-projects-template
+# Vet_Clinic
 
-> This template should be used for database related projects at Microverse.
 > Vet_clinic is a database where we can keep track of animals.
 
 
@@ -18,13 +17,15 @@ This repository includes files with plain SQL that can be used to recreate a dat
 👤 **Mithi**
 
 - GitHub: [@githubhandle](https://github.com/Mithi-code)
+- Twitter: [@twitterhandle](https://twitter.com/LazyMithlesh)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/mithicode)
 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Mithi-code/vet_clinic1/issues).
 
 ## Show your support
 
