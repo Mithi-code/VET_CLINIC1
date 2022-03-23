@@ -16,15 +16,13 @@ ALTER TABLE animals
 CREATE TABLE owners (
     id SERIAL PRIMARY KEY NOT NULL,
     full_name varchar(100),
-    age INT,
-    PRIMARY KEY(owner_id)
+    age INT
 );
 
 -- Species table 
 CREATE TABLE species (
     id SERIAL PRIMARY KEY NOT NULL,
-    name varchar(100),
-    PRIMARY KEY(species_id)
+    name varchar(100)
 );
 
 -- Remove column species
@@ -50,12 +48,12 @@ CREATE TABLE vets (
   name VARCHAR(100) NOT NULL, 
   age INT,
   date_of_graduation DATE NOT NULL 
-)
+);
 
 --Specialization table
 CREATE TABLE specializations (
-    species_id INT NOT NULL,
-    vet_id INT NOT NULL,
+    species_id INT,
+    vet_id INT,
     FOREIGN KEY (species_id) REFERENCES species (id),
     FOREIGN KEY (vet_id) REFERENCES vets (id) 
 );
