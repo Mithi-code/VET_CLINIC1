@@ -2,6 +2,7 @@
 
 > Vet_clinic is a database where we can keep track of animals.
 
+![screenshoot](./app.png)
 
 ## Getting Started
 
